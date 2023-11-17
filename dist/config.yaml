@@ -1,0 +1,57 @@
+
+
+
+
+srs_ip : "127.0.0.1"
+srs_port : 80
+
+restart_interval : 5 # min
+
+streams : 
+  - 
+    device_type : "LPR"
+    lane_id : 1
+    target_url : "APS-1"
+    src_ip : "192.168.1.100"
+    src_url : "sub_stream_1"
+    src_protocol : "rtsp"
+    src_port : 8557
+  # - 
+  #   device_type : "LPR"
+  #   lane_id : 2
+  #   target_url : "LPR-2"
+  #   src_ip : "192.168.1.101"
+  #   src_url : "sub_stream_1"
+  #   src_protocol : "rtsp"
+  #   src_port : 8557
+  # - 
+  #   device_type : "LPR"
+  #   lane_id : 3
+  #   target_url : "LPR-3"
+  #   src_ip : "192.168.1.100"
+  #   src_url : "sub_stream_1"
+  #   src_protocol : "rtsp"
+  #   src_port : 8557
+  # - 
+  #   device_type : "LPR"
+  #   lane_id : 4
+  #   target_url : "LPR-4"
+  #   src_ip : "192.168.1.101"
+  #   src_url : "sub_stream_1"
+  #   src_protocol : "rtsp"
+  #   src_port : 8557
+
+
+
+
+
+# 臻識設定
+# device_type : "LPR" (字串)
+# device_ip : "192.168.1.100" (攝影機 IP, 字串)
+# lane_id : 1 (通道數，數字)
+# target_url : 對應機器的代號
+# src_url : 分兩種 (字串)
+# - "h264" => 主碼流
+# - "sub_stream_1" => 副碼流
+# src_protocol : "rtsp" (字串)
+# src_port : 8557 

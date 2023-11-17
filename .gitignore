@@ -1,0 +1,8 @@
+*__pycache__/*
+*__pycache__*
+logs*
+build*
+output*
+*.c
+*.cpp
+*.out
