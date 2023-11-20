@@ -11,19 +11,19 @@ streams :
   - 
     device_type : "LPR"
     lane_id : 1
-    target_url : "APS-1"
-    src_ip : "192.168.1.100"
+    target_url : "LPR-1"
+    src_ip : "192.168.1.65"
     src_url : "sub_stream_1"
     src_protocol : "rtsp"
     src_port : 8557
-  # - 
-  #   device_type : "LPR"
-  #   lane_id : 2
-  #   target_url : "LPR-2"
-  #   src_ip : "192.168.1.101"
-  #   src_url : "sub_stream_1"
-  #   src_protocol : "rtsp"
-  #   src_port : 8557
+  - 
+    device_type : "LPR"
+    lane_id : 2
+    target_url : "LPR-2"
+    src_ip : "192.168.1.66"
+    src_url : "sub_stream_1"
+    src_protocol : "rtsp"
+    src_port : 8557
   # - 
   #   device_type : "LPR"
   #   lane_id : 3

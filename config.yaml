@@ -13,18 +13,18 @@ streams :
     device_type : "LPR"
     lane_id : 1
     target_url : "LPR-1"
-    src_ip : "1.34.246.170"
+    src_ip : "192.168.1.65"
     src_url : "sub_stream_1"
     src_protocol : "rtsp"
-    src_port : 48557
+    src_port : 8557
   - 
     device_type : "LPR"
     lane_id : 2
     target_url : "LPR-2"
-    src_ip : "1.34.246.170"
+    src_ip : "192.168.1.66"
     src_url : "sub_stream_1"
     src_protocol : "rtsp"
-    src_port : 49557
+    src_port : 8557
 
 
 
